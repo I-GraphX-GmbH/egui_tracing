@@ -5,3 +5,7 @@ members = [
     "examples/eframe",
     "examples/eframe-wasm32",
 ]
+
+[workspace.dependencies]
+eframe = "0.28.1"
+egui = "0.28.1"
