@@ -82,7 +82,7 @@ impl<'a, T> Table<'a, T> {
 
             let mut row = self.row.unwrap();
             egui::ScrollArea::vertical()
-                .auto_shrink([false, true])
+                .auto_shrink([true, false])
                 .stick_to_bottom(true)
                 .show_rows(
                     ui,
